@@ -1,0 +1,18 @@
+[18:10:19] [Server thread/INFO]: Starting minecraft server version 1.7.10
+[18:10:19] [Server console handler/ERROR]: Exception handling console input
+java.io.IOException: The handle is invalid
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:1.8.0_361]
+	at java.io.FileInputStream.read(Unknown Source) ~[?:1.8.0_361]
+	at java.io.BufferedInputStream.read1(Unknown Source) ~[?:1.8.0_361]
+	at java.io.BufferedInputStream.read(Unknown Source) ~[?:1.8.0_361]
+	at sun.nio.cs.StreamDecoder.readBytes(Unknown Source) ~[?:1.8.0_361]
+	at sun.nio.cs.StreamDecoder.implRead(Unknown Source) ~[?:1.8.0_361]
+	at sun.nio.cs.StreamDecoder.read(Unknown Source) ~[?:1.8.0_361]
+	at java.io.InputStreamReader.read(Unknown Source) ~[?:1.8.0_361]
+	at java.io.BufferedReader.fill(Unknown Source) ~[?:1.8.0_361]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_361]
+	at java.io.BufferedReader.readLine(Unknown Source) ~[?:1.8.0_361]
+	at net.minecraft.server.dedicated.DedicatedServer$2.run(DedicatedServer.java:97) [lv.class:?]
+[18:11:27] [Server thread/INFO]: Loading properties
+[18:11:27] [Server thread/WARN]: Failed to load eula.txt
+[18:11:27] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
