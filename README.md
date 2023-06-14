@@ -10,3 +10,6 @@ git commit -m "Initial commit"
 4-now it's updated so upload it
 git push origin main
 ----------------------------------------
+if you are not the host and you want to be follow this instruction 
+git pull
+----------------------------------------
